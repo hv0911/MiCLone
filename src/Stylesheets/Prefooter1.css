@@ -1,0 +1,130 @@
+.Prefooter{
+    padding: 1vmax;
+    margin:5vmax 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+
+}
+
+.Prefooter >div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(149, 152, 154);
+    cursor: pointer;
+   
+
+}
+
+.Prefooter > div > svg{
+    transition: all 0.2s;
+   width: 70px;
+   height: 70px;
+   fill:#757575 ;
+   
+}
+
+
+
+.Prefooter > div >p{
+    font-family: ProximaNova,Arial,Sans-serif;
+     text-decoration: none;
+    font-size:18px ;
+    padding-left: 22px;
+    color: #8c8b8b;
+ 
+}
+
+.Prefooter >div:hover svg {
+    fill: rgb(97, 95, 95);
+}
+.Prefooter > div:hover p{
+    color:rgb(97, 95, 95); ;
+}
+
+.Prefooter2{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr;
+    margin: 3vmax;
+}
+
+.Prefooter2 svg{
+    height: 31px;
+    width: 31px;
+    margin: 20px;
+    fill: #abaaaa;
+
+    /* padding: 10px; */
+}
+
+.Prefooter2 > h2{
+    font-size: 1.5rem;
+}
+
+.Prefooter2 svg:hover{
+   cursor: pointer;
+   fill: #6a6969;
+
+}
+
+#chatbox{
+    padding: 1vmax 4vmax 1vmax 1vmax ;
+    border: none;
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(6,1fr) 3fr;
+    grid-gap:40px;
+    padding: 100px;
+    padding-right: 50px;
+    background-color: #212121;
+    color: #f7f2f2 ;
+}
+.footer > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer > div >p{
+    font-size: 18px;
+    padding-bottom:10px ;
+    color: #c4c2c2 ;
+}
+
+.chat_btn{
+    background-color: #212121;
+    width: 200px;
+    padding: 10px;
+    font-size: 22px;
+    color:aliceblue;
+    border: 1px solid aliceblue ;
+    transition: all .3s;
+}
+
+.chat_btn:hover{
+    background-color: aliceblue;
+    color: #212121;
+    font-size: 22px;
+}
+
+.footer_content{
+   
+    padding:  100px;
+    background-color: #212121;
+    color: #f7f2f2 ;
+    padding-top: 1px;
+}
+.footer_content > p{
+    font-size: 20px;
+    color: #f7f2f2 ;
+}
+
+
+
+
+
+
+

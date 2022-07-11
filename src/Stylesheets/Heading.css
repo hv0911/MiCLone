@@ -1,0 +1,21 @@
+.text{
+    font-family: ProximaNova,Arial,Sans-serif;
+    font-weight: 200;
+    color: #616161;
+    text-transform: uppercase;
+    /* font-size: 45px ; */
+    font-size: 2.5vmax;
+    margin: 1vmax;
+
+}
+ .line{
+    height: 1px;
+    width: 30vmax;
+    background-color:#616161;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vmax;
+}

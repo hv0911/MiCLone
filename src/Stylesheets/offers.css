@@ -1,0 +1,17 @@
+.offerZone{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1vmax;
+   margin: 1vmax; /* added */
+}
+
+.offerZone img{
+    transition: all 0.5s;
+    margin: 0 1vmax;
+    width: 411px;
+}
+
+.offerZone img:hover{
+    box-shadow: 10px 10px 15px rgb(125, 116, 116);
+}

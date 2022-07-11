@@ -1,0 +1,17 @@
+.productReviews{
+    display: flex;
+    width: 90vw;
+    margin: auto;
+   
+}
+
+.productReviews > div{
+    margin: 1vmax;
+    transition: all .2s;
+}
+
+.productReviews > div:hover{
+    box-shadow: 5px 5px 10px #757575;
+    cursor: pointer;
+}
+

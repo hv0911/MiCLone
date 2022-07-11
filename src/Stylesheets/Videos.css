@@ -1,0 +1,8 @@
+.videos{
+    display: flex;
+    width: 88vw;
+    margin: auto;
+    border-radius: 2px solid red;
+  
+  
+}

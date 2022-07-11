@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.preNav{
+    display :grid;
+    grid-template-columns: 5fr 2fr;
+    background-color: #212121;
+    height: 60px;
+    
+}
+
+.preNav div{
+  padding: 15px;
+  margin-left: 20px;
+}
+
+
+
+.preNav div a {
+    margin:20px;
+    text-decoration: none;
+    font-family: ProximaNova,Arial,Sans-serif;
+    font-weight: 400;
+    color: #b0b0b0;
+    font-size: 14px;
+
+    
+  
+   
+}
+
+.preNav div span{
+    
+    color: #8f8888;
+    
+}
+
+.preNav div a:hover{
+    color:aliceblue;
+}
+
+svg{
+   position: relative;
+   margin: -6px 10px;
+   fill: #b0b0b0;
+}
+
+
+

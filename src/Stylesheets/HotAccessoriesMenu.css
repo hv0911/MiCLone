@@ -1,0 +1,26 @@
+.hotAccessoriesMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hotAccessoriesLink{
+    font-family: ProximaNova,Arial,Sans-serif;
+    font-weight: 400;
+    margin: 2vmax 2vmax;
+    padding-bottom:0.5vmax ;
+    font-size: 16px;
+    color: #757575;
+    text-decoration: none;
+
+}
+
+.hotAccessoriesLink:hover{
+    color: orangered;
+    border-bottom: 1px solid orangered;
+    
+}
+/* 
+#active{
+    color: orangered;
+    border-bottom: 1px solid orangered;
+}  */

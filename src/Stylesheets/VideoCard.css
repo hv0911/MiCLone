@@ -1,0 +1,62 @@
+.videocard img {
+    height: 392px;
+    width:557px;
+   
+}
+
+.videocard{
+    margin: 20px;
+    margin-bottom: 0px;
+    padding-bottom:0px ;
+    /* border: 2px solid red; */
+    height: 400px;
+    overflow: hidden;
+}
+
+.videocard>img:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+.videocard>div {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+
+
+}
+
+.videocard>div>svg {
+    width: 175px;
+    height: 125px;
+    position: relative;
+    bottom: 273px;
+    left:98px;
+    fill: white;
+    opacity: .2;
+    transition: all .2s;
+
+}
+
+.videocard:hover > div> svg {
+    cursor: pointer;
+    opacity: .6;
+}
+
+.videocard>div>p {
+    font-family: ProximaNova, Arial, Sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 22px;
+    position: relative;
+    left:-2px;
+    bottom: 243px;
+    
+
+}

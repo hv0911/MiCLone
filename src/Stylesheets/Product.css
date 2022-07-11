@@ -1,0 +1,42 @@
+.product{
+    display: flex;
+    flex-direction:column;
+    background-color: white;
+    /* padding: 1vmax; */
+    
+}
+.review > p{
+    font-family: ProximaNova,Arial,Sans-serif;
+    font-weight: 600;
+    color: #757575;
+    font-size: 20px;
+    padding: 1vmax;
+    margin-bottom: 0px;
+
+}
+
+
+.product > div:last-child{
+    display: flex;
+    margin-bottom:1vmax ;
+}
+
+.product > div:last-child > p{
+    font-family: ProximaNova,Arial,Sans-serif;
+    font-weight: 600;
+    color: #757575;
+   margin: 0 1vmax;
+   font-size: 16px;
+   
+}
+
+.product > div:last-child > spam{
+    color: orangered;
+    margin: 0 1vmax;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.product >div:first-child img{
+   width: 41vw;
+}
